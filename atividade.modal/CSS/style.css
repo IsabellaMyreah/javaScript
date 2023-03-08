@@ -1,0 +1,59 @@
+body{
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../IMG/POLEGARZINHA.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#modal{
+    background-color: rgb(235, 201, 255);
+    width:30rem;
+    padding: 5rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 13px 0px 9000px rgba(91, 67, 97, 0.75);
+}
+
+#abrir-botao{
+    padding: 2.5rem;
+    background-color: rgb(253, 210, 229);
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(227, 12, 234);
+    border: none;
+    border-radius: 0.6rem;
+    cursor: pointer;
+}
+
+#fechar-botao{
+    padding: 0.5rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(247, 0, 255);
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+.paragrafo{
+    color: rgb(182, 77, 234);
+    font-weight: 400;
+    font-family:  'Poppins', sans-serif;
+}
+
+.botao-paragrafo{
+    font-size: 14px;
+    padding: 0px;
+    color:rgb(180, 84, 228);
+}
